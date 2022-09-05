@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
     @IBOutlet var scoreLabel: UILabel!
     @IBOutlet var questionLabel: UILabel!
@@ -25,7 +26,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         askQuestion()
     }
     
@@ -38,19 +38,14 @@ class ViewController: UIViewController {
         currentQuestLabel.text = MockData.dataArray[0].title
     }
     
-    
     @IBAction func button(_ sender: UIButton) {
-        
         if sender.tag == 0 {
-            
             if MockData.dataArray[0].answer == true {
                 trueSide()
             } else {
                 falseSide()
             }
-            
         } else if sender.tag == 1 {
-            
             if MockData.dataArray[0].answer == false {
                 trueSide()
             } else {
@@ -95,6 +90,4 @@ class ViewController: UIViewController {
         yesButton.isEnabled = true
         noButton.isEnabled = true
     }
-    
 }
-
