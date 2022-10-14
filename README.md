@@ -1,6 +1,6 @@
 # UpworkApp-1
 
-I started to make the jobs I saw on Upwork, even if they didn't return my offer. I preferred to use Storyboard in this application.
+I started to make the jobs I saw on Upwork, when they didn't return to my offer or rejected. I preferred to use Storyboard in this application.
 
 Job link: https://www.upwork.com/jobs/Simple-mobile-app_~0119947655af999683/
 
